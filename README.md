@@ -3,13 +3,10 @@
 # zegar
 Repozytorium przedstawia zegar meta horizon
 
---
 
 ## GitAds Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=mplik/zegar@github)](https://gitads.dev/v1/ad-track?source=mplik/zegar@github)
 
-
---
 
 # Zegar w Meta Horizon
 
