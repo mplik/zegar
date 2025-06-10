@@ -1,3 +1,5 @@
+ <!-- GitAds-Verify: ZLC1CQHD2SM9GEZU6ZLR62VA4FENMQ9H -->
+
 # zegar
 Repozytorium przedstawia zegar meta horizon
 
