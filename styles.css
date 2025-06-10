@@ -7,6 +7,16 @@ body {
 }
 
 #zegar {
-    font-size: 40px;
-    color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #333;
+    border-radius: 50%;
+    font-size: 3em;
+    color: green; /* Zmieniamy kolor godziny na zielony */
+    background: #fff;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
