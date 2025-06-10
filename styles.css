@@ -1,9 +1,29 @@
+:root {
+    --background-color: #fff; /* Tło jasne */
+    --text-color: #0f0f0f; /* Tekst ciemny */
+    --zegar-border-color: #333; /* Obramowanie zegara */
+    --zegar-background: #fff; /* Tło zegara */
+    --zegar-text-color: green; /* Kolor godziny */
+}
+
+/* Tryb ciemny */
+.dark-mode {
+    --background-color: #0f0f0f; /* Tło ciemne */
+    --text-color: #fff; /* Tekst jasny */
+    --zegar-border-color: #aaa; /* Obramowanie zegara jaśniejsze */
+    --zegar-background: #333; /* Tło zegara ciemniejsze */
+    --zegar-text-color: lime; /* Kolor godziny jaśniejszy */
+}
+
+/* Stylowanie elementów z użyciem zmiennych */
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: #0f0f0f;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; /* Płynna zmiana trybu */
 }
 
 #zegar {
@@ -12,11 +32,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 8px solid #333;
+    border: 8px solid var(--zegar-border-color);
     border-radius: 50%;
     font-size: 3em;
-    color: green; /* Zmieniamy kolor godziny na zielony */
-    background: #fff;
+    color: var(--zegar-text-color);
+    background: var(--zegar-background);
     margin: 40px auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
