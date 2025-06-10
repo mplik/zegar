@@ -66,3 +66,15 @@ body {
         height: 100vh;
     }
 }
+
+@media (prefers-color-cheme: dark) {
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    #zegar {
+        border-color: var(--zegar-border-color);
+        background: var(--zegar-background);
+        color: var(--zegar-text-color);
+    }
+}
