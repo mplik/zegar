@@ -9,12 +9,7 @@ function aktualizujZegar() {
 setInterval(aktualizujZegar, 1000);
 aktualizujZegar(); // Wywołaj funkcję na początku, aby natychmiast pokazać czas
 
-// Kod przełączania trybu ciemnego/jasnego
-const toggleButton = document.createElement('button');
-toggleButton.id = 'toggle-theme';
-toggleButton.textContent = 'Przełącz tryb';
-document.body.appendChild(toggleButton);
-
+const toggleButton = document.getElementById('toggle-theme');
 const body = document.body;
 
 // Sprawdź zapisany tryb w localStorage i ustaw go
